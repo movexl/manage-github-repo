@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/movexl/manage-github-repo/actions/workflows/ci.yml/badge.svg)
+
 # GitHub Repository Creation Tool
 
 This tool automates the creation of repositories for a specified GitHub organization using Node.js and the GitHub API.
