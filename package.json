@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/movexl/manage-github-repo.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "github",
     "actions",
