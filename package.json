@@ -1,0 +1,48 @@
+{
+  "name": "@movexl/manage-github-repo",
+  "version": "1.0.0-semantically-released",
+  "description": "A simple tool to manage GitHub Repositories",
+  "main": "src/createRepo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/movexl/manage-github-repo.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "manage",
+    "repository",
+    "organization",
+    "massive"
+  ],
+  "author": "",
+  "license": "github.com/sun25522",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "semantic-release": "^23.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@semantic-release/npm": "^8.0.1",
+    "@semantic-release/github": "^9.0.1"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "assets": []
+        }
+      ]
+    ]
+  }
+}
