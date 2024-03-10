@@ -1,4 +1,4 @@
-name: CICD for manage-github-repo
+name: CI for manage-github-repo
 
 on:
   push:

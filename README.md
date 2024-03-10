@@ -34,7 +34,7 @@ Before you can use this tool, you need to have the following:
 
 ### Using `config.json`
 
-1. Create a `config.json` file in the root directory of the project with the following structure:
+1. In the root directory of the project, raname the `config.json.smaple` file to `config.json`. This file has the following structure:
    \```json
    {
      "token": "YOUR_PERSONAL_ACCESS_TOKEN",
